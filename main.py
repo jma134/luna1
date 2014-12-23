@@ -8,4 +8,5 @@ import datetime
 
 print "mmm"
 
-print datetime.datetime.now()
+a = datetime.datetime.now()
+print "Today is: %s" % a 
